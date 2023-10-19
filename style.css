@@ -1,0 +1,120 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    display:flex;
+    flex-direction: row;
+    gap: 15%;
+    background-color: #F0F9F9;
+}
+
+.container {
+    padding-top:50px;
+}
+
+table {
+  /*  width: 800px; */
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr,td {
+    width:800px;
+    height:100px;
+    display:flex;
+    justify-content: center;
+}
+
+tr> * {
+    align-items:flex-end;
+    align-self: center;
+}
+
+td> * {
+    align-items: flex-end;
+    align-self: center;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.red {
+    background-color: red;
+    z-index: 1;
+}
+
+.path-Number {
+    z-index: 1;
+    font-size: 1.5em;
+}
+.settings {
+  padding-left: 100px;
+  padding-top:15%;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings > * > *{
+    margin-left: 15px;
+    padding:10px;
+}
+
+h1 {
+    align-self: center;
+    font-size: 2em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.start {
+    align-self: center;
+}
+
+.start > *{
+    padding:15px 50px;
+}
+
+.action {
+    align-self: center;
+}
+
+.action > * {
+    padding:15px 30px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #F0EBE7;
+    cursor: pointer;
+    font-family:Impact,'Arial Narrow Bold', sans-serif;
+    font-weight:100;
+}
+
+button:hover {
+    background-color: white;
+}
+
+p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.95em;
+}
+
+.active {
+    background-color: #DA381C;
+}
+
